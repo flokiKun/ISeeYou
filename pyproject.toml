@@ -1,0 +1,11 @@
+[project]
+name = "iseeyou"
+version = "0.1.0"
+description = "Metrtostoi PIVO spyware!"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "pymysql>=1.1.1",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.41",
+]
